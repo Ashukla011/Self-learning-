@@ -1,0 +1,64 @@
+1-what help JS to run in Browser?
+v8- Chrom 
+Charka: Mrcrosoft Edge
+SPRIDER MANKEY :Mogila
+
+2-How to runjs on local Machine?
+Node help us to run localy in our system 
+
+Node.JS
+Node developed by Ryan Dahl in 2008
+
+ 1. Node is Runtime Enviroment 
+ 2. Acces system file 
+Advantage : 
+The biggest advantage of node is you dont't 
+have to learn any other language to code your backend
+you can just do it by the knowledge of JS only
+
+Note:
+Now we don't have to be confused , Node is a rubntime enviroment
+not programming language that is use to code backend
+
+What Do you mean by Enviroment?:
+BlueStacks: run your indroid app on system
+you can node make tandoor rooti without  tandoor just like that 
+node provide enviroment to run js localy 
+
+if install node in system what be get?
+All that functionlty of JavaScript engin that in inside of Browser
+in and sume add features thse add feature call node module 
+
+Do not install odd version :
+odd in unstable release 
+
+Must Know :
+1- OS: Node Module 
+2. path
+3. DNS
+4. Cypto
+5. File system
+
+
+Top 10 Alternatives of Node.js
+Table of Content
+
+What is NodeJS?
+How Node.js Manages a File Request?
+Top 10 Alternatives of Node.js
+1. Deno
+2. Ruby on Rails
+3. Flask and Django
+4. Go (Golang)
+5. Laravel
+6. ASP.NET
+7. Spring Boot
+8. Express.js
+9. Vue.js
+10. Angular
+
+we are in 24 page 
+
+
+
+
