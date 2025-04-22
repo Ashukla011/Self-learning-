@@ -6,7 +6,7 @@ int main() {
 
     int a = 2147483647; // Typically stores 4 bytes (32 bits). Range: -2,147,483,648 to 2,147,483,647
     short b = 32767; // Typically stores 2 bytes (16 bits). Range: -32,768 to 32,767.
-    long c = 9223372036854775807; //Typically stores 4 or 8 bytes (32 or 64 bits). Range: -2,147,483,648 to 2,147,483,647 (32-bit) or -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (64-bit).
+    long c = 6; //Typically stores 4 or 8 bytes (32 or 64 bits). Range: -2,147,483,648 to 2,147,483,647 (32-bit) or -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (64-bit).
     float d = 3.14f; // Typically stores 4 bytes (32 bits). Precision: about 7 decimal digits.
     double e = 3.141592653589793; // double: Typically stores 8 bytes (64 bits). Precision: about 15 decimal digits.
     char f = 'A'; // Typically stores 1 byte (8 bits). Range: -128 to 127 (signed) or 0 to 255 (unsigned).
