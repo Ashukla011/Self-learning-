@@ -15,4 +15,4 @@ cout<<a;
 }else{
     cout<<a+1;
 }
-};
+}
