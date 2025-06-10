@@ -1,0 +1,63 @@
+The event loop in Node.js is a fundamental concept that enables non-blocking, asynchronous programming. It allows Node.js 
+to handle multiple operations concurrently, even though JavaScript is single-threaded. Here's a concise explanation:
+
+What is the Event Loop?
+
+The event loop is a mechanism that continuously monitors the call stack and the callback queue. It ensures that asynchronous
+ operations (like file I/O, network requests, or timers) are executed without blocking the main thread.
+
+How It Works
+
+Call Stack:
+
+JavaScript code is executed in the call stack. Functions are pushed onto the stack when invoked and popped off when completed.
+
+Node.js APIs:
+
+When an asynchronous operation (e.g., setTimeout, file read, or HTTP request) is encountered, Node.js delegates it to its internal
+ APIs (like libuv).
+
+Callback Queue:
+
+Once the asynchronous operation is completed, its callback is added to the callback queue.
+
+Event Loop:
+
+The event loop checks if the call stack is empty. If it is, it pushes the first callback from the callback queue onto the call 
+stack for execution.
+Phases of the Event Loop
+
+The event loop operates in phases, each handling specific types of callbacks:
+
+Timers: Executes callbacks from setTimeout and setInterval.
+Pending Callbacks: Handles I/O callbacks deferred to the next iteration.
+Idle, Prepare: Internal operations.
+Poll: Retrieves new I/O events and executes their callbacks.
+Check: Executes setImmediate callbacks.
+Close Callbacks: Handles close events like socket.on('close').
+Key Features
+Non-blocking I/O: Handles multiple I/O operations efficiently.
+Single-threaded: JavaScript runs on a single thread, but Node.js uses worker threads for heavy tasks.
+Asynchronous Execution: Prevents the main thread from being blocked by long-running tasks.
+Example
+Copy the code
+console.log('Start');
+
+setTimeout(() => {
+  console.log('Timeout callback');
+}, 0);
+
+console.log('End');
+
+
+Output:
+
+Copy the code
+Start
+End
+Timeout callback
+
+
+Here, the setTimeout callback is added to the callback queue and executed after the main code finishes.
+
+The event loop is what makes Node.js highly efficient for I/O-heavy applications, such as web servers or real-time applications.

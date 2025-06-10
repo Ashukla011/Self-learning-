@@ -1,0 +1,9 @@
+FOR IMPORTING METHOD:
+ 1) CJS METHOD OF IMPORTING (common js method)
+ 2) EJM (ECAMASCRIPT METHOD)
+
+TYPE OF MODULE IN NODE:
+ 1) inbuild module 
+  ex: os , DNS, js crypto , path 
+ 2) Local module 
+     

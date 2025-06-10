@@ -1,0 +1,74 @@
+In JavaScript, the execution context refers to the environment in which code is executed. It determines what variables, functions, and objects are accessible at a given point in the code. There are three main types of execution contexts:
+
+1. Global Execution Context (GEC):
+This is the default context where the code starts executing.
+It creates the global window object (in browsers) or global object (in Node.js).
+Variables and functions declared outside of any function belong to this context.
+Example:
+Copy the code
+var globalVar = "I am global!";
+console.log(window.globalVar); // "I am global!" (in browsers)
+
+2. Function Execution Context (FEC):
+Created whenever a function is invoked.
+Each function call gets its own execution context.
+It has access to:
+Local variables declared inside the function.
+Arguments passed to the function.
+The this keyword, which depends on how the function is called.
+Example:
+Copy the code
+function greet(name) {
+  var greeting = "Hello, " + name;
+  console.log(greeting);
+}
+greet("Alice"); // "Hello, Alice"
+
+3. Eval Execution Context:
+Created when the eval() function is used to execute code.
+It is generally discouraged due to security and performance concerns.
+Example:
+Copy the code
+eval("var x = 5; console.log(x);"); // 5
+
+Key Phases of Execution Context:
+
+Creation Phase:
+
+Memory is allocated for variables and functions.
+Variables are initialized with undefined.
+Functions are stored in memory as-is.
+
+Execution Phase:
+
+Code is executed line by line.
+Variables are assigned their actual values.
+Execution Context Stack:
+
+JavaScript uses a stack to manage execution contexts:
+
+The Global Execution Context is pushed onto the stack first.
+Each function call creates a new context, which is pushed onto the stack.
+When a function finishes execution, its context is popped off the stack.
+
+Example:
+
+Copy the code
+function first() {
+  console.log("First function");
+  second();
+}
+
+function second() {
+  console.log("Second function");
+}
+
+first();
+// Execution Context Stack:
+// 1. Global Execution Context
+// 2. first() Execution Context
+// 3. second() Execution Context
+
+
+Understanding execution contexts is crucial for grasping concepts like hoisting,
+ closures, and the behavior of the this keyword in JavaScript.
