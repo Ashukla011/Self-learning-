@@ -37,5 +37,7 @@ cout << **q << endl; // 5
 cout << y << endl; // address of x
 cout << *q<<endl; // address of x
 
+// pass by  Reference 
+
 return 0;
 }
