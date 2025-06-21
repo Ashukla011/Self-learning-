@@ -62,6 +62,14 @@ Teacher(string name , string dept , string subject , double salary){
     this->salary = salary ;
 }
 
+// compy constructor
+Teacher(Teacher &orgObj){ // pass by refference 
+ cout << "copy constructo"<<endl;
+    this->name = orgObj.name;
+    this->dept = orgObj.dept;
+    this->subject = orgObj.subject;
+    this->salary = orgObj.salary;
+}
 
 // method : also called member function 
 void ChangeDept (string newDept){
@@ -113,6 +121,10 @@ Used for Initialisation
 . this: this is a special pointer in c++ that points to the current object
 
 */
+
+
+
+
 int main (){
 Teacher t1 ("Avnish","computer science", "c++", 8900); // constructor called autometically 
 // Teacher t2; // constructor called autometically 
@@ -125,7 +137,11 @@ t1.setSalary(25000);
 cout <<"Hello my name is  " + t1.dept <<endl;
 cout << t1.getSalary()<< endl;
  t1.getinfo();
-Teacher t2 (t1);// copy constructor
+Teacher t2 (t1);// default copy constructor
 t2.getinfo();
+Teacher t3 (t1);//created by  copy constructor
+t2.getinfo();
+
+
 return 0; 
 }
