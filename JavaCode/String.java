@@ -37,7 +37,7 @@ class StringInJava{
 
        // 3. INTERNING 
        /*The intern() method ensures that strings with the same content 
-        share share the same memory reference in the string pooll
+        share share the same memory reference in the string pool
           */
         String s1 = new String ("Hello");
         String s2 = s1.intern();
