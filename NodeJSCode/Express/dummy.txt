@@ -1,0 +1,4 @@
+You can think of dummy data like a car
+ crash dummy — you hope nothing bad happens
+  to it while testing, but if something bad does happen, 
+  you can fix the problem with no negative impact on your valuable data assets.
