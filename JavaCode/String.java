@@ -56,6 +56,9 @@ class StringInJava{
         // Length is Fixed 
            System.out.println(Str.length());// 4
 
+      String txt = "Please locate where 'locate' occurs";
+      System.out.println(txt.indexOf("locate"));
+
           
 
     }

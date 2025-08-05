@@ -310,3 +310,6 @@ In summary, the JDK is the all-in-one package for Java developers, providing eve
 <!-- https://www.geeksforgeeks.org/java-interview-questions/#java-intermediate-interview-questions -->
 <!-- EXPERIENCED -->
 <!-- https://www.geeksforgeeks.org/java-interview-questions/#java-interview-questions-for-experienced -->
+
+
+36
