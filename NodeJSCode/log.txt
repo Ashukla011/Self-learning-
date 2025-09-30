@@ -1,0 +1,14 @@
+Route/data Method: GET
+Route/ Method: GET
+Route/ Method: GET
+Route/ Method: GET
+Route/data Method: GET
+Route/data Method: GET
+Route/data Method: GET
+Route/data Method: GET
+Route/ Method: GET
+Route/ Method: GET
+Route/ Method: GET
+Route/ Method: GET
+Route/data Method: GET
+Route/newStudents Method: POST
