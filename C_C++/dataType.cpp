@@ -28,6 +28,18 @@ int main() {
     cout << "char: " << f << endl;
     cout << "bool: " << g << endl;
 
+    // DATA TYPE MEODIFIERS 
+    /* int : 4byte - 32 bits 
+       long: 8 byte - 64bits
+       long long 
+    */
+
+    cout << sizeof(int) << endl;
+    cout << sizeof(long int ) << endl;
+    cout << sizeof(short int ) << endl; // 2byte
+    cout << sizeof(long long int  ) << endl;
+    cout << sizeof(signed int ) << endl; // it can store positive and negative 
+    cout << sizeof(unsigned int ) << endl; // only store positive number range: 0 to 2*32-1 
     return 0;
 }
 
