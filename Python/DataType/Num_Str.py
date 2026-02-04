@@ -19,15 +19,22 @@ print(f"sum:", sum)
 
 #subtractoin
 difference = x-y
-print(f"difference", difference)
+print(f"difference:", difference)
 
 # Mulitplicaton 
 product = x*y
-print(f"mulitpilication", product)
+print(f"mulitpilication:", product)
+
+# 5 squared
+print(f"squared:" , 5**2)
+
 
 # division 
 quotient = x/y
 print(f"Quotient:", quotient)
+
+# floor division discards the fractional part
+print(f"discards the fractinal part:" , 17 // 3  )
 
 # Floating-point number
 pi = 3.14
@@ -48,4 +55,4 @@ f_info = f"Name :{name} , age:{age}"
 str = "abcdefghijklmnopqrstuvwxyz"
 
 first_letter = name[0]
-print(f"first letter", first_letter)
+print(f"first letter:", first_letter)
