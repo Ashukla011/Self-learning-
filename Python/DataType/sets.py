@@ -1,8 +1,9 @@
 # set data type
 
 '''
-A 'set' is built-in data type in python that represent an unordered group of distinct items. when you need to keep a collection of element
-without care to order and guarantee that each component only show once, sets come in very handy . curly braces "{}" are used to surround 
+A 'set' is built-in data type in python that represent an unordered group of distinct items. when you need to 
+keep a collection of element without care to order and guarantee that each component only show once, sets come 
+in very handy . curly braces "{}" are used to surround 
 sets.
 
 '''
