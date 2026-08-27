@@ -1,0 +1,2 @@
+## 1. Knowladge cutoff
+- A knowledge cutoff refers to the point in time after which a large language model (LLM) has not been trained on new data. Once a model reaches its knowledge cutoff, it cannot access information about events that occurred after that date unless it has real-time internet access to retrieve new information. This means that any facts or developments that arise after the cutoff date are not included in the model's training data, which can lead to inaccuracies or outdated information being provided.
