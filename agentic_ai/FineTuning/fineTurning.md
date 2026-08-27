@@ -10,9 +10,10 @@
         1. old school metho 
              - Freeze all layer retrain lat o/p layer 
              - freeze some starting layer and retrain some last layer
-             >[!Note]
-             > These are above techniqe be follow in CNN based modle, Early stage LLM 1. BERS, T5, BART
-             > Large Languge model - Buil top of Transformaer
+             
+            >[!Note]
+            > These are above techniqe be follow in CNN based modle, Early stage LLM 1. BERS, T5, BART
+            > Large Languge model - Buil top of Transformaer
 
-         2. 
+        2. 
     
