@@ -14,5 +14,25 @@
              - > These are above techniqe be follow in CNN based modle, Early stage LLM like BERS, T5, BART
              - > Large Languge model - Buil top of Transformaer
 
-        2. 
+        2. Parameter Efficiant Finturning
+             - LoRa
+             - QLoRA - Q - Quantization (In Quanlize model use 1. Lover Precision model) (2. Memory efficiant loding)
+             - This PEFT technique might work  with single GPU and smaller VRAM
+
+             - DORA
+             - Adaptor Layer (Inpaired by LoRA)
+             - BitFit
+             - IA3
+             - PreFix Tuning
+             - Prompt tuning
+
+
+## On Data Level - Based on the Data Praipration 
+     1. Non - Instractional fin etruing 
+      
+     2. Instructional fine turing
+
+     3. Alignment with the human feadback
+        - Prefrence based learning 
+        - 
     
